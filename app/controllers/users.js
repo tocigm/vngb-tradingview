@@ -6,7 +6,11 @@
 
 const mongoose = require('mongoose');
 const { wrap: async } = require('co');
-const { respond } = require('../utils');
+// const async = require('co').wrap(function* (val) {
+//   return yield Promise.resolve(val);
+// });
+
+const  respond  = require('../utils').respond;
 const User = mongoose.model('User');
 
 /**
