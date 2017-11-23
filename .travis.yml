@@ -1,6 +1,0 @@
-services:
-  - mongodb
-language: node_js
-node_js:
-  - "8.9.1"
-  - "7.10.0"
